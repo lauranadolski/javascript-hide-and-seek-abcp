@@ -18,5 +18,5 @@ function deepestChild(){
   var helper =
   document.getElementById('app').querySelector('#grand-node');
   var grabEm = helper.getElementsByTagName('*');
-  return grabEm[grabem.length - 1];
+  return grabEm[grabEm.length - 1];
 }
